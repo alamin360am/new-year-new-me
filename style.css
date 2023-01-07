@@ -73,9 +73,21 @@ section {
 
 .failure-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 80px;
+}
+
+.failure-container .img-box {
+    width: 50%;
+}
+
+.failure-container .img-box img {
+    width: 100%;
+}
+
+.failure-list {
+    width: 50%;
 }
 
 .list-description {
@@ -87,7 +99,7 @@ section {
     list-style: none;
     margin-bottom: 10px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 10px;
 }
 
